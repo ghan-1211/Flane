@@ -13,6 +13,7 @@ public class Order {
     private float yhq;//优惠券
     private float hszj;//含税总价
     private Set<Customer> customerSet;
+    private Flight flight;
 
     public String getId() {
         return id;
@@ -84,5 +85,13 @@ public class Order {
 
     public void setCustomerSet(Set<Customer> customerSet) {
         this.customerSet = customerSet;
+    }
+
+    public Flight getFlight() {
+        return flight;
+    }
+
+    public void setFlight(Flight flight) {
+        this.flight = flight;
     }
 }
