@@ -11,7 +11,8 @@ public class Flight {
     private String departureTime;//起始时间
 
     //构造方法
-    public Flight(String id, String flightId, String planeType, int currentSeatsNum, String departureAirPort, String destinationAirPort, String departureTime) {
+    public Flight(String id, String flightId, String planeType, int currentSeatsNum,
+                  String departureAirPort, String destinationAirPort, String departureTime) {
         this.Id = Id;
         this.flightId = flightId;
         this.planeType = planeType;

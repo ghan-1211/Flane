@@ -1,28 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86fa5468-87f5-4276-92cd-4c737dab8ae6" name="Default Changelist" comment="1、bean中Flight增加flightld属性&#10;2、bll中业务层调用DAO层&#10;3、dao中业务层调用DAO层&#10;4、ui中Flight增加flight属性">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc6.xml" afterDir="false" />
+    <list default="true" id="86fa5468-87f5-4276-92cd-4c737dab8ae6" name="Default Changelist" comment="1、数据库连接&#10;2、抛出异常">
+      <change afterPath="$PROJECT_DIR$/src/0112.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/0113.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Flane.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Flane.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Order.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/bean/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/bean/Flight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/bean/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/bean/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/bll/IFlightService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/bll/IFlightServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/bll/IFlightServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/bll/IFlightServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/bll/impl/FlightServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/bll/impl/FlightServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/dao/IFlightDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/dao/IFlightDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/dao/impl/FlightDaoIml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/dao/impl/FlightDaoIml.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/ui/MainUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/ui/MainUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -45,22 +63,51 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="oracle" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ojdbc6.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../OrderPlaneTicketSystem" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Flane\src" />
       <recent name="F:\Flane\src\cn\edu\hcnu" />
       <recent name="F:\Flane\src\cn\edu\hcnu\bean" />
-      <recent name="F:\Flane\src" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.MainUI">
+    <configuration name="MainUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu.hcnu.ui.MainUI" />
+      <module name="Flane" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.hcnu.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test0113" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test0113" />
+      <module name="Flane" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainUI" />
+        <item itemvalue="Application.Test0113" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -87,7 +134,8 @@
       <workItem from="1610349018931" duration="3197000" />
       <workItem from="1610422274459" duration="15788000" />
       <workItem from="1610459933573" duration="791000" />
-      <workItem from="1610496321219" duration="5200000" />
+      <workItem from="1610496321219" duration="5511000" />
+      <workItem from="1610520617832" duration="15590000" />
     </task>
     <task id="LOCAL-00001" summary="航空系统">
       <created>1610352501025</created>
@@ -103,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610458342491</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1、数据库连接&#10;2、抛出异常">
+      <created>1610510216999</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610510216999</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,29 +167,38 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="航空系统" />
     <MESSAGE value="1、bean中Flight增加flightld属性&#10;2、bll中业务层调用DAO层&#10;3、dao中业务层调用DAO层&#10;4、ui中Flight增加flight属性" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、bean中Flight增加flightld属性&#10;2、bll中业务层调用DAO层&#10;3、dao中业务层调用DAO层&#10;4、ui中Flight增加flight属性" />
+    <MESSAGE value="1、数据库连接&#10;2、抛出异常" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、数据库连接&#10;2、抛出异常" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="392" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610526942887">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1610526942887" />
     <state x="1002" y="144" key="#com.intellij.ide.util.MemberChooser" timestamp="1610452722556">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="1002" y="144" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1610452722556" />
-    <state x="1106" y="386" width="431" height="228" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1610423167120">
+    <state x="1106" y="386" width="431" height="228" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1610543060712">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="1106" y="386" width="431" height="228" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860@0.0.1600.860" timestamp="1610423167120" />
+    <state x="1106" y="386" width="431" height="228" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860@0.0.1600.860" timestamp="1610543060712" />
     <state x="466" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1610502565070">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="466" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1610502565070" />
-    <state x="549" y="0" key="CommitChangelistDialog2" timestamp="1610510096703">
+    <state x="617" y="208" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610543079386">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="549" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1610510096703" />
-    <state x="727" y="180" key="FileChooserDialogImpl" timestamp="1610505225229">
+    <state x="617" y="208" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1610543079386" />
+    <state x="85" y="22" key="CommitChangelistDialog2" timestamp="1610545063974">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="727" y="180" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1610505225229" />
+    <state x="85" y="22" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1610545063974" />
+    <state x="670" y="168" key="FileChooserDialogImpl" timestamp="1610543515112">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="670" y="168" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1610543515112" />
     <state x="827" y="346" width="274" height="210" key="Github.ShareDialog" timestamp="1610457835814">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -143,13 +207,52 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="822" y="155" key="Github.UntrackedFilesDialog/0.0.1600.860@0.0.1600.860" timestamp="1610352350050" />
-    <state x="533" y="14" key="SettingsEditor" timestamp="1610509956482">
+    <state width="1256" height="330" key="GridCell.Tab.0.bottom" timestamp="1610546737549">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="533" y="14" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1610509956482" />
-    <state x="544" y="186" key="Vcs.Push.Dialog.v2" timestamp="1610509965252">
+    <state width="1256" height="330" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1610546737549" />
+    <state width="1256" height="330" key="GridCell.Tab.0.center" timestamp="1610546737549">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="544" y="186" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1610509965252" />
+    <state width="1256" height="330" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1610546737549" />
+    <state width="1256" height="330" key="GridCell.Tab.0.left" timestamp="1610546737549">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1256" height="330" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1610546737549" />
+    <state width="1256" height="330" key="GridCell.Tab.0.right" timestamp="1610546737549">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1256" height="330" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1610546737549" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1610526951333">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1600.860@0.0.1600.860" timestamp="1610526951333" />
+    <state x="373" y="2" key="SettingsEditor" timestamp="1610541729281">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="373" y="2" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1610541729281" />
+    <state x="544" y="186" key="Vcs.Push.Dialog.v2" timestamp="1610510233970">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="544" y="186" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1610510233970" />
+    <state x="542" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1610520634572">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="542" y="252" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1610520634572" />
+    <state x="174" y="133" key="new project wizard" timestamp="1610543460276">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="174" y="133" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1610543460276" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/edu/hcnu/ui/MainUI.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
