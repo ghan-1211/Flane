@@ -2,16 +2,17 @@ package cn.edu.hcnu.bean;
 
 public class Flight {
 
-    private String id;//主键，UUID
-    private String flightId;
-    private String planeType;
-    private int currentSeatsNum;
-    private String departureAirPort;
-    private String destinationAirPort;
-    private String departureTime;
+    private String Id;//主键，UUID
+    private String flightId;//航班编号
+    private String planeType;//飞机类型
+    private int currentSeatsNum;//剩下的座位数
+    private String departureAirPort;//起始目的地
+    private String destinationAirPort;//到达目的地
+    private String departureTime;//起始时间
 
+    //构造方法
     public Flight(String id, String flightId, String planeType, int currentSeatsNum, String departureAirPort, String destinationAirPort, String departureTime) {
-        this.id = id;
+        this.Id = Id;
         this.flightId = flightId;
         this.planeType = planeType;
         this.currentSeatsNum = currentSeatsNum;
@@ -21,11 +22,11 @@ public class Flight {
     }
 
     public String getId() {
-        return id;
+        return Id;
     }
 
     public void setId(String id) {
-        this.id = id;
+        this.Id = id;
     }
 
     public String getFlightId() {
@@ -79,7 +80,8 @@ public class Flight {
     @Override
     public String toString() {
         return "Flight{" +
-                "flightId='" + flightId + '\'' +
+                "Id='" + Id + '\'' +
+                ",flightId='" + flightId + '\'' +
                 ", planeType='" + planeType + '\'' +
                 ", currentSeatsNum=" + currentSeatsNum +
                 ", departureAirPort='" + departureAirPort + '\'' +

@@ -4,7 +4,7 @@ import cn.edu.hcnu.bean.Flight;
 
 import java.util.Set;
 
-public interface IFlightService {
+public interface IFlightServiceImpl {
     void insertFlight(Flight flight);
     Set<Flight> getAllFlights();
     Flight getFlightByDepartureTime(String departureTime);

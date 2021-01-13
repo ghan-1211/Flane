@@ -4,7 +4,7 @@ import java.util.Set;
 
 public class Order {
 
-    private String id;
+    private String id;//标识
     private float jpjg;//机票价格
     private float airPortTax;//机场税
     private float ryf;//燃油费

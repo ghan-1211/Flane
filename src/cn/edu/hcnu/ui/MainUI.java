@@ -1,7 +1,7 @@
 package cn.edu.hcnu.ui;
 
 import cn.edu.hcnu.bean.Flight;
-import cn.edu.hcnu.bll.IFlightService;
+import cn.edu.hcnu.bll.IFlightServiceImpl;
 import cn.edu.hcnu.bll.impl.FlightServiceImpl;
 
 import java.util.Scanner;
@@ -38,10 +38,11 @@ public class MainUI {
                 System.out.print("请输入起飞时间：");
                 String departureTime=sc.next();
 
+                //Flight.java
                 Flight flight=new Flight(id,flightId,planeType,currentSeatsNum,
                         departureAirPort,destinationAirPort,departureTime);
 
-                IFlightService iFlightService =new FlightServiceImpl();
+                IFlightServiceImpl iFlightService =new FlightServiceImpl();
                 iFlightService.insertFlight(flight);
             }
         }

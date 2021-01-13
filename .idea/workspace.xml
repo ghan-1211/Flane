@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86fa5468-87f5-4276-92cd-4c737dab8ae6" name="Default Changelist" comment="航空系统">
-      <change afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/bll/IFlightService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/bll/impl/FlightServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/dao/IFlightDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/dao/impl/FlightDaoIml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/dao/impl/IFlightDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/ui/MainUI.java" afterDir="false" />
+    <list default="true" id="86fa5468-87f5-4276-92cd-4c737dab8ae6" name="Default Changelist" comment="1、bean中Flight增加flightld属性&#10;2、bll中业务层调用DAO层&#10;3、dao中业务层调用DAO层&#10;4、ui中Flight增加flight属性">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/bean/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/bean/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flane.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Flane.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/bean/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/bean/Flight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/bean/IFlightDao.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/bean/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/bean/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/bean/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/bll/IFlightService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/bll/IFlightServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/bll/impl/FlightServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/bll/impl/FlightServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/dao/IFlightDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/dao/IFlightDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/dao/impl/FlightDaoIml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/dao/impl/FlightDaoIml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/hcnu/ui/MainUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/hcnu/ui/MainUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +49,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/cn/edu/hcnu" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ojdbc6.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -84,7 +85,9 @@
       <option name="presentableId" value="Default" />
       <updated>1610349013739</updated>
       <workItem from="1610349018931" duration="3197000" />
-      <workItem from="1610422274459" duration="14666000" />
+      <workItem from="1610422274459" duration="15788000" />
+      <workItem from="1610459933573" duration="791000" />
+      <workItem from="1610496321219" duration="5200000" />
     </task>
     <task id="LOCAL-00001" summary="航空系统">
       <created>1610352501025</created>
@@ -93,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610352501025</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1、bean中Flight增加flightld属性&#10;2、bll中业务层调用DAO层&#10;3、dao中业务层调用DAO层&#10;4、ui中Flight增加flight属性">
+      <created>1610458342491</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610458342491</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,7 +111,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="航空系统" />
-    <option name="LAST_COMMIT_MESSAGE" value="航空系统" />
+    <MESSAGE value="1、bean中Flight增加flightld属性&#10;2、bll中业务层调用DAO层&#10;3、dao中业务层调用DAO层&#10;4、ui中Flight增加flight属性" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、bean中Flight增加flightld属性&#10;2、bll中业务层调用DAO层&#10;3、dao中业务层调用DAO层&#10;4、ui中Flight增加flight属性" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1002" y="144" key="#com.intellij.ide.util.MemberChooser" timestamp="1610452722556">
@@ -112,10 +123,18 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="1106" y="386" width="431" height="228" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860@0.0.1600.860" timestamp="1610423167120" />
-    <state x="461" y="23" key="CommitChangelistDialog2" timestamp="1610352574308">
+    <state x="466" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1610502565070">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="461" y="23" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1610352574308" />
+    <state x="466" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1610502565070" />
+    <state x="549" y="0" key="CommitChangelistDialog2" timestamp="1610510096703">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="549" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1610510096703" />
+    <state x="727" y="180" key="FileChooserDialogImpl" timestamp="1610505225229">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="727" y="180" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1610505225229" />
     <state x="827" y="346" width="274" height="210" key="Github.ShareDialog" timestamp="1610457835814">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -124,13 +143,13 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="822" y="155" key="Github.UntrackedFilesDialog/0.0.1600.860@0.0.1600.860" timestamp="1610352350050" />
-    <state x="533" y="113" key="SettingsEditor" timestamp="1610424673170">
+    <state x="533" y="14" key="SettingsEditor" timestamp="1610509956482">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="533" y="113" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1610424673170" />
-    <state x="544" y="186" key="Vcs.Push.Dialog.v2" timestamp="1610457848834">
+    <state x="533" y="14" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1610509956482" />
+    <state x="544" y="186" key="Vcs.Push.Dialog.v2" timestamp="1610509965252">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="544" y="186" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1610457848834" />
+    <state x="544" y="186" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1610509965252" />
   </component>
 </project>

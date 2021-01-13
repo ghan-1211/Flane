@@ -1,13 +1,13 @@
 package cn.edu.hcnu.bll.impl;
 
 import cn.edu.hcnu.bean.Flight;
-import cn.edu.hcnu.bll.IFlightService;
+import cn.edu.hcnu.bll.IFlightServiceImpl;
 import cn.edu.hcnu.dao.IFlightDao;
 import cn.edu.hcnu.dao.impl.FlightDaoIml;
 
 import java.util.Set;
 
-public class FlightServiceImpl implements IFlightService {
+public class FlightServiceImpl implements IFlightServiceImpl {
 
     IFlightDao iFlightDao;
 
